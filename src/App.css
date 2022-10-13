@@ -65,7 +65,7 @@ form input {
 }
 .todo input {
   cursor: pointer;
-  width: 50%;
+  width: 70%;
   border: none;
   outline: none;
   cursor: pointer;
@@ -97,9 +97,25 @@ form input {
 .button-delete {
   color: rgb(255, 122, 98);
 }
+@media screen and (max-width:820px) {
+  .todo{
+    padding: 0px 0px;
+    width: max-content;
+    max-width:95vw;
+    margin-left:-70px;
+  } 
+  
+}
 @media screen and (max-width: 667px) {
   .task_container {
     width: 90%;
+    
+  }
+  .todo{
+    padding: 0px 0px;
+    width: max-content;
+    max-width:95vw;
+    margin-left:-110px;
   }
   .task {
     margin-right: 0px;
