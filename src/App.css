@@ -37,16 +37,43 @@ form input {
   margin-bottom: 10px;
 }
 .btn_container button {
-  background: #333;
-  color: white;
+  background: white;
+  color: black;
   padding: 10px 20px;
   outline: none;
-  border: none;
+  border: 3px solid black;
   border-radius: 5px;
   font-size: 16px;
+  z-index: 1;
+  position: relative;
+  transition: ease-out 0.3s;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+}
+.btn_container button:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.btn_container button::before{
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: black;
+}
+
+.btn_container button:hover::before{
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0; 
+  opacity: 1;
+  z-index: -1;
 }
 
 .todo_container {
