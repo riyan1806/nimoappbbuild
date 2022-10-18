@@ -27,7 +27,7 @@ export default function Todo({ todo, toggleComplete, handleDelete, handleEdit,})
         className="list"
         onChange={handleChange}
       />
-      <div>
+      <div className="actions">
         <button
           className="button-complete"
           onClick={() => toggleComplete(todo)}

@@ -131,9 +131,11 @@ form input {
     max-width:95vw;
     margin-left:-70px;
   } 
+
+  
   
 }
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 467px) {
   .task_container {
     width: 90%;
     
@@ -141,11 +143,17 @@ form input {
   .todo{
     padding: 0px 0px;
     width: max-content;
+    font-size: 14px;
+    font-weight: 200;
     max-width:95vw;
-    margin-left:-110px;
+    margin-left:-74px;
   }
   .task {
     margin-right: 0px;
+  }
+  .todo input {
+   width: 60%;
+   font-size: 14px;
   }
 }
 input:focus,
