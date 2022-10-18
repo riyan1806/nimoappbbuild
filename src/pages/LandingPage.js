@@ -8,7 +8,7 @@ import HeroImage from '../components/Images/undraw_connecting_teams_re_hno7.svg'
 import Logo from '../components/Images/icons8-crane-bird-100.png'
 
 const navigation = [
-  { name: 'About Us', href: '/' },
+ 
   // { name: 'Features', href: '/' },
   // { name: 'Marketplace', href: '/' },
   // { name: 'Company', href: '/' },

@@ -17,7 +17,7 @@ import { Dialog } from '@headlessui/react'
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About Us', href: '/' },
+  // { name: 'About Us', href: '/' },
 //   { name: 'Features', href: '/' },
 //   { name: 'Marketplace', href: '/' },
 //   { name: 'Company', href: '/' },

@@ -32,9 +32,11 @@ form input {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  
 }
 .input_container {
   margin-bottom: 20px;
+  
 }
 .btn_container {
   text-align: center;
@@ -45,7 +47,7 @@ form input {
   color: black;
   padding: 10px 20px;
   outline: none;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   font-size: 16px;
   z-index: 1;
@@ -69,7 +71,7 @@ form input {
   bottom: 0;
   opacity: 0;
   content: "";
-  background-color: black;
+  background-color: rgba(45, 43, 43, 0.943);
 }
 
 .btn_container button:hover::before{
@@ -88,6 +90,7 @@ form input {
   margin-top: 20px;
   background: white;
   padding: 10px 20px;
+  border: 1px solid black;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
