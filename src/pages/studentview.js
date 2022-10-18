@@ -13,6 +13,7 @@ import {
   deleteDoc,
 } from "firebase/firestore";
 import { db } from "../firebaseConfig";
+import Navbar_todo from "../components/Navbar_todo";
 export default function Studentsview(){
     const [todos, setTodos] = React.useState([]);
 
@@ -38,8 +39,9 @@ export default function Studentsview(){
     await deleteDoc(doc(db, "todos", id));
   };
     return(
-        <div className="bg-white">
-   <Navbar_main/>
+        <div className="bg-inherit">
+   {/* <Navbar_main/> */}
+   <Navbar_todo/>
    <div >
     {/* <Table_main /> */}
     <AddTodo/>

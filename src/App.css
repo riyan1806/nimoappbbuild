@@ -6,6 +6,10 @@
 }
 body {
   background-color: #ffffff;
+  height: 100%;
+  background-image: url("undraw_adventure_re_ncqp.svg");
+  background-repeat: no-repeat;
+  background-size: 600px 1000px ;
 }
 
 form {
